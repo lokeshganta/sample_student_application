@@ -6,7 +6,12 @@ import StudentForm from './StudentForm';
 import StudentListItem from './StudentListItem';
 
 const StudentManagement = () => {
-  const [students, setStudents] = useState([]);
+  const [students, setStudents] = useState([{
+    "firstName": "Lokeshwar",
+    "lastName": "Ganta",
+    "age": "20",
+    "grade": "A"
+}]);
   const [selectedStudent, setSelectedStudent] = useState(null);
   
   useEffect(() => {

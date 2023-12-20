@@ -11,7 +11,7 @@ const StudentListItem = ({ student, onDelete, onUpdate }) => {
   };
 
   const handleUpdate = () => {
-    onUpdate(student);
+    onUpdate(student)
   };
 
   return (
